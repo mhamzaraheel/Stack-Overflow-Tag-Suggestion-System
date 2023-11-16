@@ -2,17 +2,11 @@
 
 ## Overview
 > This repository contains a Stack Overflow tag suggestion system that utilizes a text classification model to predict relevant tags for questions. The system is designed to suggest relevant tags for Stack Overflow questions using a text classification model. The model analyzes textual descriptions of questions and predicts multiple labels associated with each question. The underlying dataset is derived from the "StackSample: 10% of Stack Overflow Q&A" dataset.
-<div style="border-left: 3px solid grey; padding-left: 10px; color: black;text-align: justify;">
- This repository contains a Stack Overflow tag suggestion system that utilizes a text classification model to predict relevant tags for questions. The system is designed to suggest relevant tags for Stack Overflow questions using a text classification model. The model analyzes textual descriptions of questions and predicts multiple labels associated with each question. The underlying dataset is derived from the "StackSample: 10% of Stack Overflow Q&A" dataset. 
-</div>
-<br>
-<div style="border-left: 3px solid grey; padding-left: 10px; color: black; text-align: justify;">
-  Additionally, a web-based application has been developed using Flask and HTML/CSS to provide a user-friendly interface for utilizing the trained model.
-</div>
-<br>
-<div style="border-left: 3px solid grey; padding-left: 10px; color: black; text-align: justify;">
-The project is organized into two main components: `main.py` for data preprocessing, text vectorization, tag label encoding, and model training, and `app.py` for the web-based application.
-</div>
+
+> Additionally, a web-based application has been developed using Flask and HTML/CSS to provide a user-friendly interface for utilizing the trained model.
+
+> The project is organized into two main components: `main.py` for data preprocessing, text vectorization, tag label encoding, and model training, and `app.py` for the web-based application.
+
 
 
 
