@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <link rel="stylesheet" href="../static/css/style.css">
+  <title>myProject</title>
+</head>
+<body>
+  <div class="login-wrapper">
+
+
+    <form action="{{ url_for('predict')}}" class="form search" method="POST">
+      <img src="../static/css/img/b.jpg" alt="">
+      <h2>Text Classifier</h2>
+
+
+      <div class="input-group">
+        <input type="text" name="loginUser" id="loginUser" oninput="checkSelection(this)" required >
+        <label for="loginUser"><h3>Enter Your Query</h3></label>
+      </div>
+
+      <button type="submit" class="submit-btn">
+        Predict
+      </button>
+      
+
+      <div class="mydiv">
+
+        <div class="one">
+          <h4>SGDClassifier</h4>
+          <h6 class="pad">{{sgd_result}}</h6>
+        </div>
+
+        <div class="two">
+          <h4>Logistic Regression</h4>
+          <h6 class="pad">{{logistic_result}}</h6>
+        </div>
+
+        <div class="three">
+          <h4>Linear SVC</h4>
+          <h6 class="pad">{{svc_result}}</h6>
+        </div>
+
+      </div>
+
+
+
+    </form>
+
+
+
+
+  </div>
+
+</body>
+</html>
